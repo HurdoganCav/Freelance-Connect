@@ -1,0 +1,31 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<IdentityRole>
+@addTagHelper  *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Application Roles";
+}
+
+    <h1>View Roles</h1>
+     <p>
+         <a asp-action="Create">Create Role</a>
+     </p>
+
+     <table class="table">
+         <thead>
+              <tr>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                </tr>
+         </thead>
+     </table>
+     <tbody>
+    @foreach(var item in Model)
+    {
+      <tr>
+          <td>@Html.DisplayFor(modelItem => item.Id)</td>
+          <td>@Html.DisplayFor(modelItem => item.Name)</td>
+      </tr>
+    }
+</tbody>

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+@RenderSection("_ValidationScriptsPartial", false)
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top NavbarOfOurs">
+            <div class="container">
+                <a href="#" class="navbar-brand">Freelance Connect</a>
+
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="/Home/Profile" class="nav-link">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Home/Index" class="nav-link">Home page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Job/PostJob" class="nav-link">Post a job</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Job/ShowJob" class="nav-link">Show jobs</a><!--Bahsettiğin show job buraya geliyor-->
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+        @RenderBody()
+    </div>
+</body>
+</html>
