@@ -1,0 +1,300 @@
+
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+    
+  }
+  
+  #map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .news-input {
+      width: 50%;
+    }
+  }
+
+  body
+    {
+        background-color: white !important;
+    }
+
+    .btn-primary {
+        background-color: #fde24f !important; 
+        color: #000000 !important;
+        border-color: rgb(255, 255, 255) !important;
+      }
+
+      .btn.btn-primary.active,
+      .btn.btn-primary:active,
+      .show>.btn-primary.dropdown-toggle {
+        background-color: #00214d !important; 
+        color: #ffffff !important;
+      }
+
+      .SendMeAll{
+        background-color: #fde24f;
+      }
+
+      .SendMail{
+        color: #000000 !important;
+      }
+
+      h1{
+        line-height: 1.6 !important;
+        color: #000000 !important;
+      }
+
+      .btn-secondary {
+        background-color: #00ebc7 !important;
+        color:#000000 !important;
+        font-weight: 500 !important;
+      }
+
+      .NavbarOfOurs{
+        background-color: #000000;
+      }
+
+      .LastPart{
+        background-color: #000000;
+      }
+
+      .Footer
+      {
+        background-color: #000000;
+      }
+
+      .FormHolder{
+        
+        background-color: #e4ebf3;
+        border-radius: 15px;
+      }
+
+      .divider{
+        color: #000000 !important;
+        background-color: #000000 !important;
+      }
+
+      .FormFont{
+        color: #000000 !important;
+        background-color: #000000 !important;
+      }
+
+    .btn-danger{
+        
+        color: #e4ebf3 !important;
+        border-color: #e4ebf3 !important;
+        
+    }
+
+    .btn.btn-danger.active,
+    .btn.btn-danger:active,
+    .show>.btn-danger.dropdown-toggle {
+      background-color: #00214d !important; 
+      color: #ffffff !important;
+    }
+
+    /*Testimonials*/
+    ::selection{
+        color: #fff;
+        background: #5372F0;
+      }
+      
+
+      .wrapper :where(.title, li, li i, .details){
+        display: flex;
+        align-items: center;
+        
+      }
+      
+      .title img{
+        max-width: 21px;
+      }
+      .title h2{
+        font-size: 21px;
+        font-weight: 600;
+        margin-left: 8px;
+      }
+      .wrapper .content{
+        margin: 10px 0;
+        
+      }
+      .content p{
+        font-size: 15px;
+      }
+      .content ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 7px;
+        margin: 12px 0;
+        border-radius: 5px;
+        border: 1px solid #a6a6a6;
+      }
+      .content ul  li{
+        color: #333;
+        margin: 4px 3px;
+        list-style: none;
+        border-radius: 5px;
+        background: #F2F2F2;
+        padding: 5px 8px 5px 10px;
+        border: 1px solid #e3e1e1;
+      }
+      .content ul li i{
+        height: 20px;
+        width: 20px;
+        color: #808080;
+        margin-left: 8px;
+        font-size: 12px;
+        cursor: pointer;
+        border-radius: 50%;
+        background: #dfdfdf;
+        justify-content: center;
+      }
+      .content ul input{
+        flex: 1;
+        padding: 5px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+      }
+      .wrapper .details{
+        justify-content: space-between;
+        
+      }
+      
+      .details button:hover{
+        background: #00214d;
+      }
+
+      #btn-check01:not(:checked) + .btn-danger {
+        background-color: #ff5470;;
+        color: #fff; 
+    }
+    
+    #btn-check01:checked + .btn-danger {
+        background-color: #00214d;
+        color: #fff; 
+    }
+    
+    #btn-check01:checked:focus + .btn-danger {
+        box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5); 
+    }
+
+    #btn-check02:not(:checked) + .btn-danger {
+      background-color: #ff5470;;
+      color: #fff; 
+    }
+  
+    #btn-check02:checked + .btn-danger {
+      background-color: #00214d;
+      color: #fff; 
+    }
+  
+    #btn-check02:checked:focus + .btn-danger {
+      box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5); 
+    }
+
+
+    #btn-check03:not(:checked) + .btn-danger {
+    background-color: #ff5470;;
+    color: #fff; 
+    }
+
+#btn-check03:checked + .btn-danger {
+    background-color: #00214d;
+    color: #fff; 
+}
+
+#btn-check03:checked:focus + .btn-danger {
+    box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5); 
+}
+
+#btn-check04:not(:checked) + .btn-danger {
+  background-color: #ff5470;;
+  color: #fff; 
+}
+
+#btn-check04:checked + .btn-danger {
+  background-color: #00214d;
+  color: #fff; 
+}
+
+#btn-check04:checked:focus + .btn-danger {
+  box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5); 
+}
+
+#btn-check05:not(:checked) + .btn-danger {
+  background-color: #ff5470;;
+  color: #fff; 
+}
+
+#btn-check05:checked + .btn-danger {
+  background-color: #00214d;
+  color: #fff; 
+}
+
+#btn-check05:checked:focus + .btn-danger {
+  box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5); 
+}
+
+#btn-check06:not(:checked) + .btn-danger {
+  background-color: #ff5470;;
+  color: #fff; 
+}
+
+#btn-check06:checked + .btn-danger {
+  background-color: #00214d;
+  color: #fff; 
+}
+
+#btn-check06:checked:focus + .btn-danger {
+  box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5); 
+}
+
+#btn-check07:not(:checked) + .btn-danger {
+  background-color: #ff5470;;
+  color: #fff; 
+}
+
+#btn-check07:checked + .btn-danger {
+  background-color: #00214d;
+  color: #fff; 
+}
+
+#btn-check07:checked:focus + .btn-danger {
+  box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5); 
+}
+
+#btn-check08:not(:checked) + .btn-danger {
+  background-color: #ff5470;;
+  color: #fff; 
+}
+
+#btn-check08:checked + .btn-danger {
+  background-color: #00214d;
+  color: #fff; 
+}
+
+#btn-check08:checked:focus + .btn-danger {
+  box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5); 
+}
+
+#btn-check09:not(:checked) + .btn-danger {
+  background-color: #ff5470;;
+  color: #fff; 
+}
+
+#btn-check09:checked + .btn-danger {
+  background-color: #00214d;
+  color: #fff; 
+}
+
+#btn-check09:checked:focus + .btn-danger {
+  box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5); 
+}
+

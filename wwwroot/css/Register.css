@@ -1,0 +1,32 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.btn-primary {
+    background-color: #00ebc7 !important;
+    color:#000000 !important;
+    font-weight: 500 !important;
+    border-color: rgb(0, 0, 0) !important;
+  }
+
+  .btn-dark{
+    background-color: #fde24f !important; 
+    color: #000000 !important;
+  }
+
+  .RegisterLink{
+    color: #ff5470;
+  }
+

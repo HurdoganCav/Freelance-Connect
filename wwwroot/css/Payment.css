@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+
+       body{
+        background-color:#f5eee7;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+       }
+
+      
+
+       .card{
+
+        border: none;
+       }
+
+       .card-header {
+            padding: .5rem 1rem;
+            margin-bottom: 0;
+            background-color: rgba(0,0,0,.03);
+            border-bottom: none;
+        }
+
+        .btn-light:focus {
+            color: #212529;
+            background-color: #e2e6ea;
+            border-color: #dae0e5;
+            box-shadow: 0 0 0 0.2rem rgba(216,217,219,.5);
+        }
+
+        .form-control{
+
+          height: 50px;
+    border: 2px solid #eee;
+    border-radius: 6px;
+    font-size: 14px;
+        }
+
+        .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #039be5;
+    outline: 0;
+    box-shadow: none;
+
+    }
+
+    .input{
+
+      position: relative;
+    }
+
+    .input i{
+
+          position: absolute;
+    top: 16px;
+    left: 11px;
+    color: #989898;
+    }
+
+    .input input{
+
+      text-indent: 25px;
+    }
+
+    .card-text{
+
+      font-size: 13px;
+    margin-left: 6px;
+    }
+
+    .certificate-text{
+
+      font-size: 12px;
+    }
+
+       
+    .billing{
+      font-size: 11px;
+    }  
+
+    .super-price{
+
+          top: 0px;
+    font-size: 22px;
+    }
+
+    .super-month{
+
+          font-size: 11px;
+    }
+
+
+    .line{
+      color: #bfbdbd;
+    }
+
+    .free-button{
+
+          background: #1565c0;
+    height: 52px;
+    font-size: 15px;
+    border-radius: 8px;
+    }
+
+
+    .payment-card-body{
+
+    flex: 1 1 auto;
+    padding: 24px 1rem !important;
+
+    }
+
+    .btn-primary {
+        background-color: #fde24f !important; 
+        color: #000000 !important;
+        border-color: rgb(255, 255, 255) !important;
+      }
+
+      .btn-primary.active,
+      .btn-primary:active,
+      .show>.btn-primary.dropdown-toggle {
+        background-color: #00214d !important; 
+        color: #ffffff !important;
+      }
+
+      .SendMeAll{
+        background-color: #fde24f;
+      }
+
+      .SendMail{
+        color: #000000 !important;
+      }
+
+      h1{
+        line-height: 1.6 !important;
+        color: #000000 !important;
+      }
+
+      .btn-secondary {
+        background-color: #00ebc7 !important;
+        color:#000000 !important;
+        font-weight: 500 !important;
+      }
+
+      .NavbarOfOurs{
+        background-color: #000000;
+      }
+
+      .LastPart{
+        background-color: #000000;
+      }
+
+      .Footer
+      {
+        background-color: #000000;
+      }
+
+      .WorkCards{
+        background-color: #e4ebf3 !important; 
+        color: #000000 !important;
+        height: 100% !important;
+        justify-content: center !important;
+        
+        display: flex !important;
+        margin: 0 auto !important;
+        border-radius: 15px !important;
+        padding : 10px ;
+        margin-bottom: 50px !important;
+
+        font-size: large;
+      }
+
+     .btn-info{
+      background-color: #ff5470 !important; 
+        color: #ffffff !important;
+        border-color: rgb(255, 255, 255) !important;
+        font-weight: 500 !important;
+        font-size: large !important;
+        
+        padding-top: 9px !important;
+        padding-bottom: 9px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+
+        border-radius: 15px !important;
+      
+     }
