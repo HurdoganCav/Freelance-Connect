@@ -1,8 +1,6 @@
 # Freelance-Connect
 
 ## Description
-Freelance Connect is a web platform you can bid and collect jobs and at the same time post jobs and find the profesional who can manage the jobs for you
-
 Freelance Connect is a versatile web platform that streamlines the process of finding and managing freelance work.Whether you're interested in posting jobs or keen to take on new projects.
 
 ## Features
